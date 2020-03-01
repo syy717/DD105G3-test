@@ -1,10 +1,21 @@
 //共用的header
 footer {
-    width: 1300px;
-    background-color: #3bfc00;
- }
+    height:85px;
+    background-color: #4b823d;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    font-size:1rem;
+}
+ 
 
 
+
+
+
+
+// --------------------------------------------------------
  //平板
 @include respond(medium){
     footer {
